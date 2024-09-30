@@ -1,0 +1,61 @@
+body{
+    background-image: url(./new\ back.jpg);
+    background-repeat:no-repeat;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    height: 95vh;
+
+    
+}
+.container{
+    margin-top:100px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 30px blueviolet,-5px -5px 30px rgb(240, 199, 240);
+    background-color: transparent;
+    background-image: url(./blurred-pink-tones-background_1102-31.jpg);
+    /* background-repeat:no-repeat; */
+    /* background-position: center; */
+
+    background-size: cover;
+    
+}
+#input{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+}
+/* ::-webkit-input-placeholder{
+    color:black;
+ } */
+#search{
+    border-radius: 10px;
+    width:70px ;
+    height: 35px;
+    border: none;
+    box-shadow: inset 5px 5px 50px blueviolet,-5px -5px 50px rgb(240, 199, 240) ;
+}
+.windSpeed{
+    display: flex;
+    justify-content: space-around;
+}
+#temp{
+    font-size: 50px;
+}
+.icon{
+    display: flex;
+}
+
+
+

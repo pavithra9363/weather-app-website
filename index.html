@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whether app</title>
+    <link rel="stylesheet" href="./whether.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="./whether.js"></script>
+</head>
+
+<body>
+   
+ <div class="container">
+        <div id="start">
+            <input type="text" placeholder="Enter your city" id="input">
+            <button id="search"onclick=start() >SEARCH</button>
+        </div>
+        <!-- <img src="./clear.png" alt=""> -->
+        <div class="center">
+            <img src="./front1.png" id="img" style="height: 150px;width: 150px;margin-top: 20px;"/><br>
+            <h3 id="temp" style="margin: 0px;">0&deg;C</h3>
+            <h2 id="city">CITY NAME</h2>
+        </div>
+    <div class="windSpeed">
+
+        <div class="hum">
+            
+         <h2 id="humidity"><i class="fa-solid fa-water"></i>0%</h3>
+         <h3>Humidity</span>
+
+        </div >
+        <div class="win">
+            <h2 id="wind"><i class="fa-duotone fa-solid fa-wind"></i>0Km/h</h2>
+            <h3>Wind Speed</h3>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>
